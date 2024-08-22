@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/payment-service")
+@RequestMapping("/pay")
 public class PaymentServiceTestController {
 
     @GetMapping("/get-name")
